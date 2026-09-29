@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SOOP 1080p (Brave)
+Comment=SOOP 공개 생방송 고화질 재생
+Exec=python3 /home/ubuntu/Documents/ChatGPT/숲TV_1080p/soop_browser.py --open
+Path=/home/ubuntu/Documents/ChatGPT/숲TV_1080p
+Icon=video-display
+Terminal=true
+Categories=AudioVideo;Video;

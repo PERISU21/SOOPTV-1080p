@@ -1,0 +1,14 @@
+[Unit]
+Description=SOOP Ubuntu Brave HD playback bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/Documents/ChatGPT/숲TV_1080p
+ExecStart=/usr/bin/python3 /home/ubuntu/Documents/ChatGPT/숲TV_1080p/soop_browser.py --port 18777
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
