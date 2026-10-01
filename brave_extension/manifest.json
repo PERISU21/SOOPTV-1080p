@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SOOP Ubuntu 1080p",
+  "version": "0.7.6",
+  "description": "SOOP 공개 방송 페이지에서 1080p·720p 고화질과 기본 화질을 전환합니다.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "http://127.0.0.1:18777/*",
+    "https://play.sooplive.com/*"
+  ],
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [{
+    "matches": ["https://play.sooplive.com/*"],
+    "js": ["hls.min.js", "content.js"],
+    "run_at": "document_idle"
+  }]
+}
