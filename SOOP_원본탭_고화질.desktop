@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=SOOP 원본 탭 고화질 서버
-Comment=브레이브 SOOP 탭 최대 3개에 고화질 공급
-Exec=python3 /home/ubuntu/Documents/ChatGPT/숲TV_1080p/soop_browser.py --port 18777
-Path=/home/ubuntu/Documents/ChatGPT/숲TV_1080p
-Icon=video-display
-Terminal=true
-Categories=AudioVideo;Video;
